@@ -12,7 +12,6 @@ matplotlib = "*"
 scipy = "*"
 sympy = "*"
 pandas = "*"
-quantum-decomp = "*"
 
 [dev-packages]
 
