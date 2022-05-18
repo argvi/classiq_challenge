@@ -1,0 +1,6 @@
+#+Title: Classiq Coding Competition Submissions
+
+This repository contains my submissions for the [[https://www.classiq.io/competition][Classiq Coding Competition]].
+
+* Hamiltonian Simulation
+The challenge was to simulate a Hamiltonian consisting of 276 10-qubit Pauli strings with quantum circuit of minimal depth, using only single-qubit and CNOT gates. The goal was to produce a circuit that approximates \( e^{-iH} \) to within 0.1 in the 2-norm. My code produces a circuit with a depth of 3193, using simultaneous diagnoalization of commuting Paulis and a Trotter approximation of only 2 steps. Had the approximation error threshold been 0.15, the circuit depth could have been halved by dropping the Trotter approximation entirely.
